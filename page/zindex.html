@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index Property</title>
+    <link rel="stylesheet" href="../style/zindex.css">
+</head>
+<body>
+    <header>
+        <h1>Z-index Property</h1>
+        <p>The z-index property controls the stacking order of overlapping elements.</p>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Value: auto</h2>
+            <p>Uses the default stacking order.</p>
+            <div class="demo auto-demo">
+                <div class="box box-one">Box 1</div>
+                <div class="box box-two">Box 2</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: 0</h2>
+            <p>Sets the stack level to zero.</p>
+            <div class="demo zero-demo">
+                <div class="box box-one">Box 1</div>
+                <div class="box box-two">Box 2</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: 1</h2>
+            <p>Places an element above an overlapping element with a lower stack level.</p>
+            <div class="demo one-demo">
+                <div class="box box-one">z-index: 0</div>
+                <div class="box box-two">z-index: 1</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: 10</h2>
+            <p>Uses a higher stack level than elements with lower values in the same stacking context.</p>
+            <div class="demo ten-demo">
+                <div class="box box-one">z-index: 1</div>
+                <div class="box box-two">z-index: 10</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: -1</h2>
+            <p>Places an element at a negative stack level.</p>
+            <div class="demo negative-demo">
+                <div class="box box-one">z-index: 0</div>
+                <div class="box box-two">z-index: -1</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CSS Fundamentals Lab</p>
+        <p>All rights reserved.</p>
+        <p>Designed and built by Abhijit</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties</title>
+    <link rel="stylesheet" href="../style/position.css">
+</head>
+<body>
+    <header>
+        <h1>Position Properties</h1>
+        <p>The position property controls how an element is placed on a webpage.</p>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Value: static</h2>
+            <p>Default positioning. Top and left do not reposition the element.</p>
+            <div class="demo static-demo">
+                <div class="box">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box 3</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: relative</h2>
+            <p>Moves an element relative to its normal position.</p>
+            <div class="demo">
+                <div class="box">Box 1</div>
+                <div class="box relative-box">Box 2</div>
+                <div class="box">Box 3</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: absolute</h2>
+            <p>Positions an element relative to its containing block.</p>
+            <div class="demo absolute-demo">
+                <div class="box">Box 1</div>
+                <div class="box absolute-box">Absolute</div>
+                <div class="box">Box 3</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: fixed</h2>
+            <p>Positions an element relative to the viewport.</p>
+            <div class="demo">
+                <div class="box">Normal Box</div>
+                <div class="fixed-box">Fixed</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Value: sticky</h2>
+            <p>The element sticks to a specified position while scrolling.</p>
+            <div class="sticky-demo">
+                <div class="sticky-box">Sticky Element</div>
+                <div class="scroll-content">
+                    <p>Scroll inside this area to see the sticky element.</p>
+                    <p>Content 1</p>
+                    <p>Content 2</p>
+                    <p>Content 3</p>
+                    <p>Content 4</p>
+                    <p>Content 5</p>
+                    <p>Content 6</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CSS Fundamentals Lab</p>
+        <p>All rights reserved.</p>
+        <p>Designed and built by Abhijit</p>
+    </footer>
+</body>
+</html>
