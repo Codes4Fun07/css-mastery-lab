@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+    <link rel="stylesheet" href="../style/display.css">
+</head>
+<body>
+    <header>
+        <h1>Display Properties</h1>
+        <p> The display property controls how an HTML element appears and occupies space on a webpage.</p>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Value: block</h2>
+            <p>Starts on a new line and takes the available width by default.</p>
+            <div id="block-container">
+                <div class="box">
+                <p>Box 1</p>
+                </div>
+                <div class="box">
+                    <p>Box 2</p>
+                </div>
+                <div class="box">
+                    <p>Box 3</p>
+                </div>
+                <div class="box">
+                    <p>Box 4</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Value: inline</h2>
+            <p>Stays in the same line and takes the required width.</p>
+            <div id="inline-container">
+                <span class="element">Element 1</span><span class="element">Element 2</span><span class="element">Element 3</span>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Value: inline-block</h2>
+            <p>Stays inline and supports custom width and height.</p>
+            <div id="inline-block-container">
+                <span class="element">Element 1</span><span class="element">Element 2</span><span class="element">Element 3</span>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Value: flex</h2>
+            <p>Arranges child elements using Flexbox.</p>
+            <div id="flex-container">
+                <div class="flex-box">
+                <p>box 1</p>
+                </div>
+                <div class="flex-box">
+                    <p>box 2</p>
+                </div>
+                <div class="flex-box">
+                    <p>box 3</p>
+                </div>
+                <div class="flex-box">
+                    <p>box 4</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Value: grid</h2>
+            <p>Arranges child elements in rows and columns.</p>
+            <div id="grid-container">
+                <div class="grid-box">
+                    <p>box 1</p>
+                </div>
+                <div class="grid-box">
+                    <p>box 2</p>
+                </div>
+                <div class="grid-box">
+                    <p>box 3</p>
+                </div>
+                <div class="grid-box">
+                    <p>box 4</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Value: none</h2>
+            <p>Hides the element and removes its layout space.</p>
+            <div id="none-container">
+                <div class="box">
+                    <p>Box 1</p>
+                </div>
+                <div class="box">
+                    <p>Box 2</p>
+                </div>
+                <div class="box">
+                    <p>Box 3</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Value: table</h2>
+            <p>Displays the element as a table.</p>
+            <div id="table-container">
+                <div class="table-box">
+                    <p>Row 1</p>
+                </div>
+                <div class="table-box">
+                    <p>Row 2</p>
+                </div>
+                <div class="table-box">
+                    <p>Row 3</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Value: list-item</h2>
+            <p>Displays the element as a list item.</p>
+            <div id="list-item-container">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+         <p>&copy; 2026 CSS Fundamentals Lab</p>
+        <p>All rights reserved.</p>
+        <p>Designed and built by Abhijit</p>
+    </footer>
+</body>
+</html>
